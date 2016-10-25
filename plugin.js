@@ -27,6 +27,7 @@
    center['lon'] = '#lng#';
    center['zoom'] = '#zoom#';
    localStorage.setItem('livemap_user_state',JSON.stringify(center));
+   localStorage.setItem('download-hover-is-hidden',true);
    
    window.location.href = 'https://www.waze.com/livemap';
    
